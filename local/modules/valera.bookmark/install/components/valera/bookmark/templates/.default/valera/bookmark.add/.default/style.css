@@ -1,0 +1,32 @@
+.bookmark form {
+    width: 100%;
+}
+
+.bookmark form label.invalid {
+    position: absolute;
+    top: 100%;
+    z-index: 5;
+    max-width: 100%;
+    padding: 0.25rem 0.5rem;
+    margin-top: 0.1rem;
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    color: #fff;
+    background-color: rgba(220, 53, 69, 0.9);
+    border-radius: 0.1875rem;
+}
+
+.bookmark form input.form-control.invalid {
+    border-color: #dc3545;
+}
+.bookmark form input.form-control.invalid:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.2rem rgba(220,53,69,.25);
+}
+.bookmark form input.form-control.valid {
+    border-color: #28a745;
+}
+.bookmark form input.form-control.valid:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40,167,69,.25);
+}
